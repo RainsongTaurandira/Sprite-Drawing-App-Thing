@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sprite Drawing App Thing</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <h1>Sprite-Drawing App Thing</h1>
+    
+    <button type="button" class="topBtn" id="btnDownload">Download</button>
+    <h3>Click Download button to download a PNG of your sprite with a transparent background.</h3>
+
+    <!-- <button type="button" class="topBtn" id="btnErase">Erase</button> -->
+    
+   <canvas id="drawing-canvas" width="500" height="500"></canvas>
+
+    <div class="toolbar">
+        <button id="decrease">-</button>
+        <span id="size">10</span>
+        <button id="increase">+</button>
+        <input type="color" id="color">
+        <button id="clear">Clear</button>
+    </div>
+
+    <h3>Click on - or + to make the stroke thinner or thicker, and click on the small square to change colors.</h3>
+ 
+</body>
+</html>
+
+<!-- https://www.udemy.com/course/javascript-zero-to-expert-the-complete-modern-guide-build-real-apps/learn/lecture/23226136#overview
+Muslim Helalee
+Section #24 - The Drawing App 
+
+For expansion:
+
+https://fonts.google.com/specimen/Macondo
+@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+font-family: 'Macondo', cursive;
+
+
+export to PNG
+ https://www.youtube.com/watch?v=YoVJWZrS2WU
+dcode
+Convert HTML Canvas to Image (PNG or JPG) - JavaScript Tutorial
+to make the course project a useful game dev tool
+
+save as / save functions
+also add erase function... much like draw but stuff becomes "none"
+fill function?
+
+-->

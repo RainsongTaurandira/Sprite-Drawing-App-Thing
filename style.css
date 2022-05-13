@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+
+:root {
+    --background: rgb(245, 218, 245);
+    --accent: rgb(71, 1, 71);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--background);
+    font-family: 'Macondo', cursive;
+    margin: 0;
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+canvas {
+    border: 4px solid var(--accent);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+h1 {
+    color: var(--accent);
+}
+
+h3 {
+    color: var(--accent);
+    margin: .5rem 0;
+}
+
+button {
+    cursor: pointer;
+}
+
+.topBtn {
+    font-family: 'Macondo', cursive;
+    background-color: var(--accent);
+    font-size: 1rem;
+    color: var(--background);
+    border-radius: 5px;
+    padding: .5rem;
+    margin: .6rem;
+    cursor: pointer;
+}
+
+.toolbar {
+    background-color: var(--accent);
+    color: var(--background);
+    display: flex;
+    padding: 1rem;
+    width: 508px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.toolbar > * {
+    border: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    height: 2rem;
+    background-color: transparent;
+    color: var(--background);
+    margin-left: 1rem;
+}
+
+#clear {
+    margin-left: auto;
+    margin-right: 1rem;
+    
+    outline: none;
+    font-family: 'Macondo', cursive;
+    color: var(--background);
+}
+
+#color {
+    height: 2rem;
+    width: 2rem;   
+}
