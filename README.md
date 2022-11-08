@@ -1,5 +1,5 @@
 # Sprite-Drawing App Thing
- Very basic drawing app that exports to PNG; done in HTML5, CSS, and JavaScript.
+## Very basic drawing app that exports to PNG; done in HTML5, CSS, and JavaScript.
 
 for Tool Jam 2, on itch.io
 
@@ -17,8 +17,10 @@ Live tool: https://rainsong.itch.io/sprite-drawing-app-thing
 Made with HTML, CSS, and JavaScript
 
 Credits:
+
 Font:  Macondo from Google Fonts
+
 Leaning heavily on a couple tutorials:
-Muslim Helalee's Udemy course
-dcode's Youtube video on converting canvases to PNG
+Muslim Helalee's Udemy course, 
+dcode's Youtube video on converting canvases to PNG, 
 and an assortment of youtube videos and the usual HTML5 documentation at W3Schools and DMN Web Docs
